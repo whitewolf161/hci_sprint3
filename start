@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Feature</title>
+    <link href="hci.css" type="text/css" rel="stylesheet" />
+    
+</head>
+<body>
+    
+<div class="split left">
+    <ul>
+        <li>Involve ND</li>
+        <li> ------------</li>
+        <li>Categories</li>
+        <div class="options"> 
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> All Events</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Athletics</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Arts</label>
+        </div>
+        
+    </ul>
+</div>
+    
+    
+<div class="split right">
+    <div class="title">
+        <ul>
+            <li>The <a href="portugal.html">Week &#8659;</a> at ND </li>
+        </ul>
+    </div>
+     
+    <div class="month">
+      <ul>
+        <li class="prev"> &#10094;</li>
+        <li class="prev_week">Week of 10/8 </li>
+        <li class="next">&#10095;</li>
+        <li class="next_week"> Week of 10/17 </li>
+        <li>October <br><span style="font-size:18px"> 2021</span></li>
+      </ul>
+    </div>
+
+    <ul class="num">
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+    </ul>
+    
+    
+    <ul class="weekdays">
+        <li>Sunday</li>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+        <li>Saturday</li>
+    </ul>
+    
+    <hr>
+
+    <ul class="days">
+        <li>Event 1</li>
+        <li>Event 3</li>
+        <li>Event 5</li>
+        <li>Event 7</li>
+        <li>Event 9</li>
+        <li>Event 6</li>
+        <li>Event 7</li>
+        <li>Event 2</li>
+        <li>Event 4</li>
+        <li>Event 6</li>
+        <li>Event 8</li>
+        <li>Event 10</li>
+        <!--<li><span class="active">10</span></li>-->
+    </ul>
+</div>
+</body> 
